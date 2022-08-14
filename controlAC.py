@@ -69,7 +69,6 @@ if __name__ == "__main__":
     rm=[True]
     while rm[0]:
         rm=search(rm)
-    print(rm)
     
     while True:
         temp=kaiterra.summarize_laser_egg("dd85475c-a5ef-4a15-b00f-206e408528b2") #obtener valor de temp <float>
