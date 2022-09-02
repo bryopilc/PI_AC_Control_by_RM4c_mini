@@ -84,4 +84,4 @@ if __name__ == "__main__":
     time.sleep(11) #tiempo en que se conecta el controlador AC
     while True:
         summarize_laser_egg("dd85475c-a5ef-4a15-b00f-206e408528b2") #obtiene valores del Kaiterra con el ID
-        time.sleep(150)
+        time.sleep(60)

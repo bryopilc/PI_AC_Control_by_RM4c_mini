@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from kaiTemp import summarize_laser_egg
+from ..kaiTemp import summarize_laser_egg
 
 class StatusJson(BaseModel):
     status: bool
